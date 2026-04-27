@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 import { getUsers, saveUsers, saveSession, clearSession } from "@/lib/storage";
 
-export function SigUp(
+export function signUp(
   email: string,
   password: string,
 ): {
