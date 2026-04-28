@@ -40,4 +40,10 @@ describe("calculateCurrentStreak", () => {
       ),
     ).toBe(4);
   });
+
+  it("breaks the streak when a calendar day is missing", () => {
+    expect(
+      calculateCurrentStreak([threeDaysBack, twoDaysBack, today], today),
+    ).toBe(1);
+  });
 });
