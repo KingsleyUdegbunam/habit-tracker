@@ -32,6 +32,6 @@ export function getHabits(): Habit[] {
   return data ? JSON.parse(data) : [];
 }
 
-export function saveHabit(habits: Habit[]): void {
+export function saveHabits(habits: Habit[]): void {
   localStorage.setItem(STORAGE_KEYS.HABITS, JSON.stringify(habits));
 }
