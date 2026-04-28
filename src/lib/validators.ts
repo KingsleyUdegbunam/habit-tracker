@@ -3,7 +3,7 @@ export function validateHabitName(name: string): {
   value: string;
   error: string | null;
 } {
-  const trimmed = name.trim();
+  const trimmed = name.replace(/\s+/g, " ").trim();
 
   if (trimmed === "") {
     return {
