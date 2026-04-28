@@ -53,6 +53,7 @@ export default function SignUpForm() {
             <input
               type="email"
               name="email"
+              autoComplete="email"
               id="email"
               required
               placeholder="you@example.com"
@@ -76,6 +77,7 @@ export default function SignUpForm() {
               type="password"
               name="password"
               id="password"
+              autoComplete="new-password"
               placeholder="••••••••"
               required
               value={password}
