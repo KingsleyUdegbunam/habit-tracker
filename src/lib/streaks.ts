@@ -1,4 +1,4 @@
-function toDateString(date: Date): string {
+export function toDateString(date: Date): string {
   return [
     date.getFullYear(),
     String(date.getMonth() + 1).padStart(2, "0"),
