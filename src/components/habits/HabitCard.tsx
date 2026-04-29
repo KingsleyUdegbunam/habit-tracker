@@ -26,8 +26,10 @@ export default function HabitCard({
   return (
     <article
       data-testid={`habit-card-${slug}`}
-      className={`bg-white border rounded-2xl p-5 shadow-sm transition-all ${
-        isCompletedToday ? "border-green-200 bg-green-50" : "border-gray-100"
+      className={`border rounded-2xl p-5 shadow-sm transition-all ${
+        isCompletedToday
+          ? "border-green-200 bg-green-50"
+          : "border-gray-100 bg-white"
       }`}
     >
       <div className="flex items-start justify-between gap-4">
