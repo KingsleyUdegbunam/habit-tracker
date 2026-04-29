@@ -24,6 +24,7 @@ export default function SignupForm() {
       return;
     }
 
+    setLoading(false);
     router.push("/dashboard");
   }
 
