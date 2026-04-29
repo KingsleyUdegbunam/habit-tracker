@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { signUp } from "@/lib/auth";
 
-export default function SignUpForm() {
+export default function SignupForm() {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -93,7 +93,7 @@ export default function SignUpForm() {
             type="submit"
             disabled={loading}
             className="w-full py-2.5 px-4 text-white text-sm bg-gray-900 font-medium hover:bg-gray-700 rounded-lg disabled:opacity-50 transition-colors"
-            data-testid="auth-signup-button"
+            data-testid="auth-signup-submit"
           >
             {loading ? "Signing up..." : "Sign up"}
           </button>
