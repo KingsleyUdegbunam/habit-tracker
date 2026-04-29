@@ -7,9 +7,13 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ## 📌 Project Overview
 
-A lightweight habit tracking application built with Next.js that enables users to create habits, track daily completion, and maintain streaks.
+A lightweight habit tracking application built with Next.js.
 
-**The application is offline-first and uses localStorage for persistence**, with optional PWA support for installable mobile-like experience.
+Track daily habits, mark completions, and build streaks over time.
+ 
+ **Offline-first** with localStorage persistence, and optional **PWA support** for an installable, app-like experience.
+
+![Habit Tracker Preview](docs/images/habit-tracker-preview.png)
 
 ---
 
@@ -267,3 +271,4 @@ This project is implemented in strict accordance with the provided [technical re
 
 ## Live Demo
 [🔗 Click here](https://habit-mate.netlify.app/)
+
