@@ -59,7 +59,7 @@ export default function LoginForm() {
               value={email}
               placeholder="you@example.com"
               data-testid="auth-login-email"
-              className="border border-gray-200 rounded-lg w-full px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900"
+              className="border border-gray-200 rounded-lg w-full px-4 py-2.5 text-base focus:outline-none focus:ring-2 focus:ring-gray-900"
             />
           </div>
 
@@ -81,7 +81,7 @@ export default function LoginForm() {
               }}
               required
               data-testid="auth-login-password"
-              className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900"
+              className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-base focus:outline-none focus:ring-2 focus:ring-gray-900"
               placeholder="••••••••"
             />
           </div>

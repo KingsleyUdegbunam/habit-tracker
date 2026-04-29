@@ -63,7 +63,7 @@ export default function HabitForm({
             value={name}
             onChange={(e) => setName(e.target.value)}
             data-testid="habit-name-input"
-            className="border border-gray-200 rounded-lg w-full px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900"
+            className="border border-gray-200 rounded-lg w-full px-4 py-2.5 text-base focus:outline-none focus:ring-2 focus:ring-gray-900"
           />
         </div>
 
@@ -83,7 +83,7 @@ export default function HabitForm({
             onChange={(e) => setDescription(e.target.value)}
             placeholder="e.g. Step out by 7 A.M."
             data-testid="habit-description-input"
-            className="border border-gray-200 rounded-lg w-full px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900"
+            className="border border-gray-200 rounded-lg w-full px-4 py-2.5 text-base focus:outline-none focus:ring-2 focus:ring-gray-900"
           />
         </div>
         <div>
@@ -98,7 +98,7 @@ export default function HabitForm({
             id="habit-frequency"
             defaultValue="daily"
             data-testid="habit-frequency-select"
-            className="border border-gray-200 rounded-lg w-full px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900"
+            className="border border-gray-200 rounded-lg w-full px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-gray-900"
           >
             <option value="daily">Daily</option>
           </select>
