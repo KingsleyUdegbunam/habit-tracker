@@ -16,7 +16,7 @@ A lightweight habit tracking application built with Next.js that enables users t
 ## ⚙️ Setup Instructions
 
 ```bash id="setup2"
-git clone <repository-url>
+git clone git@github.com:KingsleyUdegbunam/habit-tracker.git
 cd habit-tracker
 npm install
 npx playwright install
@@ -264,3 +264,6 @@ This test suite validates:
 ## 📄 Technical Requirement
 
 This project is implemented in strict accordance with the provided [technical requirements document.](https://docs.google.com/document/d/1Gp2_0pZWWnQbLc6zLS1U4wI6kO8DCC07Ea5JFjOYXlI/edit?tab=t.0) 
+
+## Live Demo
+[🔗 Click here](https://habit-mate.netlify.app/)
