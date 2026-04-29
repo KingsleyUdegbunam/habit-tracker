@@ -25,9 +25,9 @@ export default function RootLayout({
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/icons/icon-48x48.png"
+          href="/icons/icon-48.png"
         />
-        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="apple-touch-icon" href="/icons/icon-192.png" />
       </head>
       <body className={geist.className} suppressHydrationWarning>
         {children}
